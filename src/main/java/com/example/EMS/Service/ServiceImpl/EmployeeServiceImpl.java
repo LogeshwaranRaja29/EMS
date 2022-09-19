@@ -1,4 +1,4 @@
-package com.example.EMS.ServiceImpl;
+package com.example.EMS.Service.ServiceImpl;
 
 import com.example.EMS.Model.Employee;
 import com.example.EMS.Repository.EmployeeRepository;
