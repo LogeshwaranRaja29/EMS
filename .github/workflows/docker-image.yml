@@ -23,7 +23,7 @@ jobs:
     - name: Build with Maven
       run: mvn clean install
 
-    - name: Login to Docker Hub, Build and Push Docker Image
+    - name: Login to Docker Hub-> Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: logeshwaranrajagopal/ems_v1
