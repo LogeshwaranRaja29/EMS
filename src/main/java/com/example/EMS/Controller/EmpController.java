@@ -18,6 +18,11 @@ public class EmpController {
 
     //handlers
 
+    @GetMapping("/")
+    public String health {
+        return "ok";
+    }
+
     @GetMapping("/employees")
     public String getAllEmployee(Model model)
     {
