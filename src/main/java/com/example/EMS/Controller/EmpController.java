@@ -19,7 +19,7 @@ public class EmpController {
     //handlers
 
     @GetMapping("/")
-    public String health {
+    public String health() {
         return "ok";
     }
 
